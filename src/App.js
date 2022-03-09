@@ -1,6 +1,5 @@
-
-import './index.css';
 import React from "react";
+import './index.css';
 
 export default function Menu({ fixed }) {
   const [menuOpen, setMenuOpen] = React.useState(false);
