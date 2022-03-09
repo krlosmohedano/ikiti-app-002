@@ -5,16 +5,16 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Store', href: '#', current: false },
+  { name: 'Orders', href: '#', current: false },
+  { name: 'Contact', href: '#', current: false },
 ]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Navbar2() {
   return (
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (

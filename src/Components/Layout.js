@@ -1,11 +1,8 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar2 from './Navbar2';
 
 export default function Layout({children}) {
   return (
-    <div className='h-screen'>
-        <Navbar/>
-        {children}
-        </div>
+        <Navbar2/>
   )
 }
