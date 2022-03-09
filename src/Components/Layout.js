@@ -1,8 +1,9 @@
 import React from 'react';
-import Listproducts from './Listproducts';
 import Navbar2 from './Navbar2';
+import Listproducts from './Listproducts';
 
-export default function Layout({children}) {
+
+export default function Layout() {
   return (
         <Navbar2/>,
         <Listproducts/>
