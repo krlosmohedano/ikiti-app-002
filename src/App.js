@@ -1,6 +1,6 @@
 
 import './App.css';
-import ResponsiveNavbar from './Components/ResponsiveNavbar';
+import ResponsiveNavbar from './ResponsiveNavbar';
 
 function App() {
   return (
