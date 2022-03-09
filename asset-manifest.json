@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ikiti-app-002/static/css/main.073c9b0a.css",
-    "main.js": "/ikiti-app-002/static/js/main.5a80570b.js",
-    "static/js/787.483936c4.chunk.js": "/ikiti-app-002/static/js/787.483936c4.chunk.js",
-    "static/media/logo.svg": "/ikiti-app-002/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/ikiti-app-002/index.html",
-    "main.073c9b0a.css.map": "/ikiti-app-002/static/css/main.073c9b0a.css.map",
-    "main.5a80570b.js.map": "/ikiti-app-002/static/js/main.5a80570b.js.map",
-    "787.483936c4.chunk.js.map": "/ikiti-app-002/static/js/787.483936c4.chunk.js.map"
+    "main.css": "//krlosmohedano.github.io/ikiti-app-002/static/css/main.ba53258c.css",
+    "main.js": "//krlosmohedano.github.io/ikiti-app-002/static/js/main.f13e4c10.js",
+    "static/js/787.483936c4.chunk.js": "//krlosmohedano.github.io/ikiti-app-002/static/js/787.483936c4.chunk.js",
+    "static/media/logo.svg": "//krlosmohedano.github.io/ikiti-app-002/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "//krlosmohedano.github.io/ikiti-app-002/index.html",
+    "main.ba53258c.css.map": "//krlosmohedano.github.io/ikiti-app-002/static/css/main.ba53258c.css.map",
+    "main.f13e4c10.js.map": "//krlosmohedano.github.io/ikiti-app-002/static/js/main.f13e4c10.js.map",
+    "787.483936c4.chunk.js.map": "//krlosmohedano.github.io/ikiti-app-002/static/js/787.483936c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.5a80570b.js"
+    "static/css/main.ba53258c.css",
+    "static/js/main.f13e4c10.js"
   ]
 }
