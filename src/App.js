@@ -1,12 +1,13 @@
 
 import './index.css';
 import './Components/Layout';
-import Navbar from './Components/Navbar';
+import Layout from './Components/Layout';
+
 function App() {
   return (
     <Layout/>
     <div className="bg-blue-300 h-screen">
-     IKITI INICIO
+     IKITI INICIO 2
     </div>
   );
 }
