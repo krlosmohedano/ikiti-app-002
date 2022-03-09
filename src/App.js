@@ -1,67 +1,37 @@
-import React from "react";
-import './index.css';
+import React, { useState } from "react";
+import Navbar from "@material-tailwind/react/Navbar";
+import NavbarContainer from "@material-tailwind/react/NavbarContainer";
+import NavbarWrapper from "@material-tailwind/react/NavbarWrapper";
+import NavbarBrand from "@material-tailwind/react/NavbarBrand";
+import NavbarToggler from "@material-tailwind/react/NavbarToggler";
+import NavbarCollapse from "@material-tailwind/react/NavbarCollapse";
+import Nav from "@material-tailwind/react/Nav";
+import NavItem from "@material-tailwind/react/NavItem";
+import NavLink from "@material-tailwind/react/NavLink";
 
-export default function Menu({ fixed }) {
-  const [menuOpen, setMenuOpen] = React.useState(false);
-  return (
-    <>
-      <div className="flex flex-wrap py-2">
-        <div className="w-full px-4">
-          <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-lightBlue-500 rounded">
-            <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-              <div className="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
-                <a
-                  className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-                  href="#pablo"
-                >
-                  IKITI STORE
-                </a>
-                <button
-                  className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-                  type="button"
-                  onClick={() => setMenuOpen(!menuOpen)}
-                >
-                  <i className="fas fa-bars"></i>
-                </button>
-              </div>
-              <div
-                className={
-                  "lg:flex flex-grow items-center" +
-                  (menuOpen ? " flex" : " hidden")
-                }
-                id="example-navbar-info"
-              >
-                <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-                  <li className="nav-item">
-                    <a
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                      href="#pablo"
-                    >
-                      Discover
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                      href="#pablo"
-                    >
-                      Profile
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                      href="#pablo"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </>
-  );
+export default function Menu() {
+    const [openMenu, setOpenMenu] = useState(false);
+
+    return (
+        <Navbar color="teal">
+            <NavbarContainer>
+                <NavbarWrapper>
+                    <NavbarBrand>IKITI</NavbarBrand>
+                    <NavbarToggler
+                        color="white"
+                        onClick={() => setOpenMenu(!openMenu)}
+                        ripple="light"
+                    />
+                </NavbarWrapper>
+
+                <NavbarCollapse open={openMenu}>
+                    <Nav>
+                        <NavItem active="light" ripple="light">Discover</NavItem>
+                        <NavLink href="#navbar" ripple="light">Profile</NavLink>
+                        <NavItem ripple="light">Settings</NavItem>
+                    </Nav>
+                </NavbarCollapse>
+            </NavbarContainer>
+        </Navbar>
+    );
 }
