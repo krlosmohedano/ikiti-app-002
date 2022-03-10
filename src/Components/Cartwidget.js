@@ -6,7 +6,7 @@ export default function Cartwidget() {
   return (
     <button
     type="button"
-    className="bg-teal-500	p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+    className="bg-teal-800	p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
   >
     <span className="sr-only">CartWidget</span>
     <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
