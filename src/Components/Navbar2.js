@@ -37,13 +37,13 @@ export default function Navbar2() {
                 <div className="flex-shrink-0 flex items-center">
                   <img
                     className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                    alt="Workflow"
+                    src="https://i.ibb.co/3pQq4Gy/logo-ikiti.png"
+                    alt="Ikitishop"
                   />
                   <img
                     className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-                    alt="Workflow"
+                    src="https://i.ibb.co/3pQq4Gy/logo-ikiti.png"
+                    alt="Ikitishop"
                   />
                 </div>
                 <div className="hidden sm:block sm:ml-6">
