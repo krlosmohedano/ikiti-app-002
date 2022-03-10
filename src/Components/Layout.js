@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar2 from './Navbar2';
-import Listproducts from './Listproducts';
+import productList from './productList';
 
 
 export default function Layout() {
   return (
-        <Navbar2/>
+        <div><Navbar2/></div>,
+        <div><productList/></div>
        
   )
 }
