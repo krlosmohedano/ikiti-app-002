@@ -5,7 +5,7 @@ import productList from './productList';
 
 export default function Layout() {
   return (
-        <div><Navbar2 /></div>
-       
+        <div><Navbar2 /></div>,
+        <div><productList /></div>
   )
 }
