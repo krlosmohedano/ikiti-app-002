@@ -7,7 +7,6 @@ import Contact from './Components/Contact';
 import Store from './Components/Store';
 import reportWebVitals from './reportWebVitals';
 import Layout from './Components/Layout';
-import { Switch } from '@headlessui/react';
 import {
   BrowserRouter as Router,
   Switch,
