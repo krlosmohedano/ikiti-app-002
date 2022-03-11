@@ -2,11 +2,40 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Home from './Components/home';
+import Contact from './Components/Contact';
+import Store from './Components/Store';
 import reportWebVitals from './reportWebVitals';
+import Layout from './Components/Layout';
+import { Switch } from '@headlessui/react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Layout>
+    <Switch>
+        <Route exact path="/">
+        <Home />
+        </Route>
+
+        <Route exact path="/store">
+        <Store />
+        </Route>
+
+        <Route exact path="/contact">
+        <Contact />
+        </Route>
+
+      </Switch>
+     </Layout>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
